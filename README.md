@@ -12,9 +12,38 @@
 - Integration
 >
 - Reusable and Reproducible
->
+![img.png](img.png)
+
+- Make Predictions
+
+```
+Predict on a Spark DataFrame:
+
+import mlflow
+from pyspark.sql.functions import struct, col
+logged_model = 'runs:/6411938243d5456280c3a47a88c342ba/model'
+
+# Load model as a Spark UDF. Override result_type if the model does not return double values.
+loaded_model = mlflow.pyfunc.spark_udf(spark, model_uri=logged_model, result_type='double')
+
+# Predict on a Spark DataFrame.
+df.withColumn('predictions', loaded_model(struct(*map(col, df.columns))))
+```
+
+```
+Predict on a Pandas DataFrame:
+import mlflow
+logged_model = 'runs:/6411938243d5456280c3a47a88c342ba/model'
+
+# Load model as a PyFuncModel.
+loaded_model = mlflow.pyfunc.load_model(logged_model)
+
+# Predict on a Pandas DataFrame.
+import pandas as pd
+loaded_model.predict(pd.DataFrame(data))
+```
 - MLflow UI
->
+> ![UI](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/UI.png "UI")
 
 ## SHAP
 - Build a TreeExplainer and compute Shaplay Values
