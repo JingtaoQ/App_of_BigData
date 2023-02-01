@@ -36,7 +36,7 @@
 
     </html>
   
-  ![Visualize1](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-2.png "Visualize1")
+  ![Visualize2](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/P3-2.png "Visualize2")
 - Visualize a summary plot for each class on the whole dataset
     <html>
 
@@ -44,4 +44,4 @@
 
     </html>
 
-  ![Visualize1](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-3.png "Visualize1")
+  ![Visualize3](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-3.png "Visualize3")
