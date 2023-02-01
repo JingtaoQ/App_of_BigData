@@ -44,4 +44,4 @@
 
     </html>
 
-  ![Visualize3](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-3.png "Visualize3")
+  ![Visualize3](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/P3-3.png "Visualize3")
