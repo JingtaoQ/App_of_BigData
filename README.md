@@ -12,7 +12,8 @@
 - Integration
 >
 - Reusable and Reproducible
-![img.png](img.png)
+
+![Reproduce](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/Reproduce.png)
 
 - Make Predictions
 
