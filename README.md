@@ -21,12 +21,27 @@
 - Visualize explanations for a specific point of your data set
 
     <html>
-        shap.plots.beeswarm(shap_values)<br>
-    </html>
   
-    <html>
-        <img src="https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-1.png">
-    </html>
+        shap.plots.beeswarm(shap_values)
+
+    </html>   
+
+  ![Visualize1](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-1.png "Visualize1")
     
 - Visualize explanations for all points of  your data set at once
+    <html>
+
+        ind = 0
+        shap.plots.force(shap_values[ind],matplotlib=True)
+
+    </html>
+  
+  ![Visualize1](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-2.png "Visualize1")
 - Visualize a summary plot for each class on the whole dataset
+    <html>
+
+        shap.summary_plot(train, test, plot_type="bar",feature_names=features)
+
+    </html>
+
+  ![Visualize1](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-3.png "Visualize1")
