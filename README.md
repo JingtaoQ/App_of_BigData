@@ -1,13 +1,20 @@
 # MLflow Porjet - (Home Credit Risk Classification + MLflow + SHAP)
 ## Home Credit Risk Classification
 - Pre-Operation
+>
 - LogisticRegression
+>
 - Predictions
+>
 - Propose a solution to Schedule  your ML pipeline
+>
 ## MLflow
 - Integration
+>
 - Reusable and Reproducible
+>
 - MLflow UI
+>
 
 ## SHAP
 - Build a TreeExplainer and compute Shaplay Values
@@ -27,7 +34,7 @@
     </html>   
 
   ![Visualize1](https://github.com/JingtaoQ/App_of_BigData/blob/main/pic/p3-1.png "Visualize1")
-    
+
 - Visualize explanations for all points of  your data set at once
     <html>
 
